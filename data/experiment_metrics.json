@@ -1,0 +1,98 @@
+{
+  "dense_latency_ms_4096": 127.35,
+  "linear_latency_ms_4096": 12.65,
+  "h2o_latency_ms_4096": 96.7,
+  "checkpoint_file_size_kb": 426.94,
+  "checkpoint_reload_ms": 15.95,
+  "budget_metrics": [
+    {
+      "budget_ratio": 0.05,
+      "kv_memory_kb": 110.5,
+      "cosine_sim_to_dense": 0.8984,
+      "lesion_dice": 0.6466
+    },
+    {
+      "budget_ratio": 0.1,
+      "kv_memory_kb": 213.0,
+      "cosine_sim_to_dense": 0.9191,
+      "lesion_dice": 0.9683
+    },
+    {
+      "budget_ratio": 0.15,
+      "kv_memory_kb": 315.0,
+      "cosine_sim_to_dense": 0.9288,
+      "lesion_dice": 0.9781
+    },
+    {
+      "budget_ratio": 0.2,
+      "kv_memory_kb": 417.5,
+      "cosine_sim_to_dense": 0.9388,
+      "lesion_dice": 0.9806
+    },
+    {
+      "budget_ratio": 0.3,
+      "kv_memory_kb": 622.5,
+      "cosine_sim_to_dense": 0.9555,
+      "lesion_dice": 0.9829
+    },
+    {
+      "budget_ratio": 0.5,
+      "kv_memory_kb": 1032.0,
+      "cosine_sim_to_dense": 0.9797,
+      "lesion_dice": 0.9802
+    },
+    {
+      "budget_ratio": 1.0,
+      "kv_memory_kb": 2056.0,
+      "cosine_sim_to_dense": 1.0,
+      "lesion_dice": 0.9909
+    }
+  ],
+  "scaling_results": [
+    {
+      "N": 512,
+      "dense_ms": 5.74,
+      "linear_ms": 5.14,
+      "h2o_20pct_ms": 7.26,
+      "dense_kv_kb": 256.0,
+      "linear_kv_kb": 8.2,
+      "h2o_kv_kb": 59.0
+    },
+    {
+      "N": 1024,
+      "dense_ms": 10.38,
+      "linear_ms": 7.21,
+      "h2o_20pct_ms": 8.85,
+      "dense_kv_kb": 512.0,
+      "linear_kv_kb": 8.2,
+      "h2o_kv_kb": 110.5
+    },
+    {
+      "N": 2048,
+      "dense_ms": 30.03,
+      "linear_ms": 8.79,
+      "h2o_20pct_ms": 15.1,
+      "dense_kv_kb": 1024.0,
+      "linear_kv_kb": 8.2,
+      "h2o_kv_kb": 213.0
+    },
+    {
+      "N": 4096,
+      "dense_ms": 134.98,
+      "linear_ms": 13.26,
+      "h2o_20pct_ms": 36.54,
+      "dense_kv_kb": 2048.0,
+      "linear_kv_kb": 8.2,
+      "h2o_kv_kb": 417.5
+    },
+    {
+      "N": 8192,
+      "dense_ms": 944.91,
+      "linear_ms": 22.95,
+      "h2o_20pct_ms": 123.77,
+      "dense_kv_kb": 4096.0,
+      "linear_kv_kb": 8.2,
+      "h2o_kv_kb": 827.0
+    }
+  ]
+}
